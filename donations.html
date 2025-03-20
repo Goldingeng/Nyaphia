@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Пожертвования</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Стили для верхнего меню */
+    nav {
+      width: 100%;
+      background-color: #000;
+      padding: 10px 0;
+      box-sizing: border-box;
+      border-radius: 0 0 10px 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+    nav li {
+      margin: 0 10px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #fff;
+      padding: 10px 20px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    nav a:hover {
+      color: #000;
+      background-color: orange;
+    }
+    
+    /* Стили для контента */
+    .content {
+      padding: 20px;
+      margin-top: 20px;
+      background-color: #555;
+      box-sizing: border-box;
+      min-height: calc(100vh - 80px);
+      border-radius: 10px;
+    }
+    
+    /* Стили для заголовков */
+    h1, h2, h3, h4, h5, h6 {
+      color: orange;
+    }
+    
+    /* Стили для секции пожертвований */
+    .donations-info {
+      background-color: #666;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+      margin-top: 20px;
+    }
+    .donations-info h2 {
+      margin-top: 0;
+    }
+    .donation-method {
+      background-color: #777;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+    .donation-method a {
+      color: orange;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .donation-method a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="versions.html">Архив версий</a></li>
+      <li><a href="donations.html">Пожертвования</a></li>
+      <li><a href="map.html">Карта</a></li>
+    </ul>
+  </nav>
+  <div class="content">
+    <h1>Пожертвования</h1>
+    <div class="donations-info">
+      <h2>Как поддержать проект</h2>
+      <p>Мы благодарны за любую поддержку! Если вам нравится наш проект и вы хотите помочь его развитию, выберите удобный для вас способ пожертвования:</p>
+      
+      <div class="donation-method">
+        <h3>Golding</h3>
+        <p>Вы можете обратиться к администратору для перевода на карту. Доступные карты:</p>
+        <ul>
+          <li>Mastercard (Bel)</li>
+          <li>Мир</li>
+        </ul>
+      </div>
+      <div class="donation-method">
+        <h3>Alert</h3>
+        <p>Вы можете обратиться к администратору для перевода на карту. Доступная карта:</p>
+        <ul>
+          <li>Visa (Uk)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
